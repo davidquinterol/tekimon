@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Tekimon!</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="./js/tekimon.js"></script>
+  </head>
+
+  <body background= "/assets/periodico.jpg">
+    <section id="tekimones🐾">
+      <center>
+        <h1 class="title">🐱‍👤TEKIMON🔥</h1>
+
+        <h2 class="h2">Elige tu Tekimon:</h2>
+
+        <div class = "opciones_tekimon">
+            <label class="tekimones_prest" for="vulvasaur">
+                Vulvasaur - Agua🌊
+                <img = src="./assets/vulvasaur.png" alt="Vulvasaur">
+            </label>
+            <input type="radio" name="tekimon" id="vulvasaur" />
+            <label class="tekimones_prest" for="termite">
+              Termite - Tierra🌄
+              <img = src="./assets/termite.png" alt="Termite">
+            </label>
+            <input type="radio" name="tekimon" id="termite" />
+            <label class="tekimones_prest" for="doge">
+              Doge - Fuego🔥
+              <img = src="./assets/doge.png" alt="Doge">
+            </label>
+            <input type="radio" name="tekimon" id="doge" />           
+        </div>
+      </center>
+      <center><br><button id = "boton_tekimon">Guardar💾</button></br></center>
+    </section>
+
+    <section id="ataques🦾">
+        <h1 class="title">🐱‍👤TEKIMON🔥</h1>
+
+      <h2 class="h2">Elige tu ataque:</h2>
+
+      <div>
+          <button id="boton_fuego" class="botones_ataque">Fuego🔥</button>
+          <button id="boton_agua" class="botones_ataque">Agua🌊</button>
+          <button id="boton_tierra" class="botones_ataque">Tierra🌄</button>
+      </div>
+
+      <div>
+        <!-- <section id="mensajes"></section> -->
+
+          <div id="resultado"></div>
+          <div id="ataque_jugador"></div>
+          <div id="ataque_enemigo"></div>
+
+        <section id="reinicio">
+          <center><button id="boton_reiniciar">Reiniciar</button></center>
+        </section>
+      </div>
+
+      <div>
+        <center>
+          <p>
+            Tu Tekimon <span id="mascota_jugador">3</span> tiene
+            <span id="vidas_jugador"></span> vidas
+          </p>
+          <p>
+            El Tekimon enemigo <span id="mascota_enemigo">3</span> tiene
+            <span id="vidas_enemigo"></span> vidas
+          </p>
+        </center>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,91 @@
+#tekimones🐾 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: rgb(226, 8, 8);
+  width: 250px;
+  height: 50px;
+  background-color: rgb(64, 70, 60);
+  border-radius: 10px;
+  font-family: cursive;
+  font-size: xx-large;
+}
+
+.h2 {
+  color: brown;
+  border-radius: 10px;
+  font-family: cursive;
+  font-size: x-large;
+}
+
+.opciones_tekimon {
+  background-color: rgb(172, 69, 0);
+  display: flex;
+  border-radius: 15px;
+  margin: 5px;
+}
+
+.tekimones_prest {
+  background-color: antiquewhite;
+  border-radius: 15px;
+  font-family: cursive;
+  font-size: medium;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 2px;
+}
+
+.tekimones_prest img {
+  width: 150px;
+  height: 150px;
+}
+
+input {
+  display: none;
+}
+
+#boton_tekimon {
+  background-color: rgb(245, 184, 104);
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  font-family: cursive;
+  font-size: medium;
+  padding: 5px;
+  box-sizing: border-box;
+  margin: 5px;
+}
+
+#ataques🦾 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.botones_ataque {
+  background-color: rgb(245, 184, 104);
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  font-family: cursive;
+  font-size: medium;
+  padding: 5px;
+  box-sizing: border-box;
+  margin: 5px;
+}
+
+.column {
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .column {
+    width: 50%;
+  }
+}
